@@ -71,7 +71,7 @@ function ProductManage() {
           type="number"
           placeholder="Stock"
           value={form.stock}
-          onChange={(e) => setForm({ ...form, stock: e的时代 value })}
+          onChange={(e) => setForm({ ...form, stock: e. value })}
         />
         <button type="submit">Add Product</button>
       </form>
