@@ -1,0 +1,36 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/chaos/Documents/spthesis/frontend/.npmrc
+5 silly config load:file:/Users/chaos/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/Users/chaos/.npm/_logs/2025-04-14T14_01_35_298Z-
+10 verbose logfile /Users/chaos/.npm/_logs/2025-04-14T14_01_35_298Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack JSONParseError: Invalid package.json: JSONParseError: Unexpected token "/" (0x2F), "// fronten"... is not valid JSON while parsing '// frontend/package.json (部分)
+12 verbose stack {
+12 verbose stack   "depen'
+12 verbose stack     at parse (/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+12 verbose stack     at PackageJson.fromJSON (/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:162:22)
+12 verbose stack     at PackageJson.load (/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:157:17)
+12 verbose stack     at async PackageJson.normalize (/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+12 verbose stack     at async #run (/usr/local/lib/node_modules/npm/lib/commands/run-script.js:86:13)
+12 verbose stack     at async RunScript.exec (/usr/local/lib/node_modules/npm/lib/commands/run-script.js:40:7)
+12 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+12 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+13 error code EJSONPARSE
+14 error JSON.parse Invalid package.json: JSONParseError: Unexpected token "/" (0x2F), "// fronten"... is not valid JSON while parsing '// frontend/package.json (部分)
+14 error JSON.parse {
+14 error JSON.parse   "depen'
+15 error JSON.parse Failed to parse JSON data.
+15 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+16 verbose cwd /Users/chaos/Documents/spthesis/frontend
+17 verbose os Darwin 24.3.0
+18 verbose node v22.14.0
+19 verbose npm  v10.9.2
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /Users/chaos/.npm/_logs/2025-04-14T14_01_35_298Z-debug-0.log
